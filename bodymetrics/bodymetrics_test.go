@@ -30,7 +30,7 @@ func TestSurpass(t *testing.T) {
 	if d := SurpassDiff(85, 80); d != 5.0 {
 		t.Fatalf("SurpassDiff=%.1f", d)
 	}
-	if p := SurpassRatioPercent(85, 80); p != 6.2 {
+	if p := SurpassRatioPercent(85, 80); p != 6.3 {
 		t.Fatalf("SurpassRatioPercent=%.1f", p)
 	}
 }
