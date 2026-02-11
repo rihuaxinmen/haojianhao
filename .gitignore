@@ -1,0 +1,9 @@
+standard_body_metrics.csv
+scored.csv
+data.csv
+measurements.csv
+*.out
+*.exe
+bin/
+dist/
+
